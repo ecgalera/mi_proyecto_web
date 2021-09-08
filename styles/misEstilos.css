@@ -3,9 +3,17 @@
     class = bloque__elemento--modicación*/
 
 /*  dividiremos la hoja misEstilos.css en bloques utilizando comentarios para estableces dichas divisiones */
-
+/* voy a bajar estilos de letras de GoogleFonts */
+*{
+    margin: 0;
+    padding: 0;
+}
 /* INDEX.HTML */
-
+/* BODY */
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
 /* BLOQUE HEADER */
 
 
