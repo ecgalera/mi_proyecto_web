@@ -4,6 +4,19 @@
 
 /*  dividiremos la hoja misEstilos.css en bloques utilizando comentarios para estableces dichas divisiones */
 /* voy a bajar estilos de letras de GoogleFonts */
+
+/* Gama de colores elegida: 
+
+Colores para páginas web: Azul
+El color azul está vinculado a la estabilidad. Representa diferentes términos, entre ellos, la frescura, confianza, paciencia y honradez. Al ser un color frío, el azul también se encuentra direccionado a transmitir sensaciones de pureza.
+
+Si tu marca ofrece productos relacionados a la limpieza facial, como es el caso de la marca Nivea, el azul puede ser una buena opción de color para una página web. 
+
+Tonos de azul elegidos: 
+https://color.adobe.com/es/create/color-wheel
+*/
+
+
 *{
     margin: 0;
     padding: 0;

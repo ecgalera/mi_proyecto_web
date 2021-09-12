@@ -1,3 +1,10 @@
 # mi_proyecto_web
 Secuencia de Trabajo html css bootstrap para UTN BA
 Incorporamos el maquetado completo en HTML. 
+
+Trato de considerar todos los elementos aprendidos hasta el momento para generar una Página Web Responsiva.
+
+- Maquetado Html
+- Estilos con CSS
+- Bootstrap
+- @media query para hacerlo responsive 
