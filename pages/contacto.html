@@ -14,71 +14,107 @@
     <title>Contacto</title>
 </head>
 <body>
-    <h2></h2>    
-    <form action="">
-        <fieldset>
-            <legend></legend>
-                <label for=""></label>
-                <input type="text" name="">
-                <label for=""></label>
-                <input type="text" name="">
-                <label for=""></label>
-                <input type="email" name="">
-                <label for=""></label>
-                <input type="number" name="">
-                <label for=""></label>
-                <input type="date" name="">
-                <label for=""></label>
-                <input type="radio" name="">
-                <input type="radio" name="">
-                <input type="radio" name="">
-        </fieldset>
-        <fieldset>
-            <legend></legend>
-                <label for=""></label>
-                <input type="text" name="">
-                <label for=""></label>
-                <input type="number" name="">
-                <label for=""></label>
-                <select name="" id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <label for=""></label>
-                <select name="" id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                </select>
-                <label for=""></label>
-                <input type="number" name="">
+    <h2 class="h2__form">Complete el siguiente formulario</h2>   
+    
+    <form action="" class="form__container">
+
+        <fieldset class="fieldset__container">
+
+            <legend class="legend__datosPersonales">Datos Personales</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Complete el nombre">
+
+                <label for="">Apellido</label>
+                <input type="text" name="apellido" placeholder="Complete el apellido">
+
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono" placeholder="Complete su número de Teléfono">
+
+                <label for="e-mail">E-Mail</label>
+                <input type="email" name="e-mail" placeholder="Complete con su E-mail">
+
+                <label for="fechaDeNacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="fechaDeNacimiento">
+
+               
+             <form action="">
+                <div class="type__radio">
+                    <label for="">Estudios</label>
+                    <input type="radio" name="Estudios" >Secundario
+                    <input type="radio" name="Estudios" >Terciario
+                    <input type="radio" name="Estudios" >Universitario
+                </div>
+             </form>
         </fieldset>
 
-        <fieldset>
-            <legend></legend>
-            <label for=""></label>
-            <input type="checkbok" name="" value="">
-            <input type="checkbok" name="" value="">
-            <input type="checkbok" name="" value="">
-            <input type="checkbok" name="" value="">          
+
+        <fieldset class="fieldset__container">
+
+            <legend class="legend__datosPersonales">Dirección</legend>
+
+                <label for="">Calle</label>
+                <input type="text" name="">
+
+                <label for="">Número</label>
+                <input type="number" name="">
+
+                <label for="">Localidad</label>
+                <select name="" id="">
+
+                    <option value="">Colon</option>
+                    <option value="">Santa Maria</option>
+                    <option value="">San Martin</option>
+                    <option value="">Tercero Arriba</option>
+
+                </select>
+
+                <label for="">Provincia</label>
+                <select name="" id="">
+                    <option value="">Córdoba</option>
+                    <option value="">Santa Fe</option>
+                    <option value="">Buenos Aires</option>
+                    <option value="">San Luis</option>
+                </select>
+
+                <label for="codigoPostal">Codigo Postal</label>
+                <input type="number" name="codigoPostal">
+
+        </fieldset>
+
+    <form action="">
+        <fieldset class="fieldset__container">
+            <legend class="legend__datosPersonales">Encuesta</legend>
+        
+        <div class="type__radio">
+            <label for="">Encuesta</label>
+            <input type="checkbox" >Estoy de Acuerdo 
+            <input type="checkbox">No Estoy de Acuerdo
+            <input type="checkbox">Estoy poco de Acuerdo 
+            <input type="checkbox">Estoy muy de Acuerdo
+        </div>
         </fieldset>
     </form>
 
-    <form action="">
-        <fieldset>
-            <legend></legend>
-            <label for=""></label>
-            <textarea rows="" cols="" id="">
-            <input type="submit" value="">
+    <form action="" class="from__textarea">
+
+        <fieldset class="fieldset__container">
+
+            <legend class="legend__datosPersonales">Comentarios</legend>
+
+            <label for="comentarios">Envíe su comentarios</label>
+            <textarea rows="15" cols="" id="5" placeholder="Envíe su comentario">
+
        </fieldset>
+       
+       <input type="submit" value="Enviar">
+
     </form>
   
-    <label for=""></label>
-    <input type="file" name="">
-
+    <form>
+        <label for="">Suba su Curriculum</label>
+        <input type="file" name="Curriculum">
+    </form>
     
     <!-- Agregor el JS y el popper.js para Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
