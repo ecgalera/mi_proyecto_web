@@ -60,8 +60,26 @@ input{
     
 }
 
-.form__textarea{
-    
+.form__submit{
+    color:white;
+    background-color: rgb(12, 12, 94);
+    font-size: medium;
+    width: 12%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 1.5rem;
+}
 
+.textarea__form{
+    margin: 1rem;
+    font-size: large;
+}
+
+.input__form-file{
+    padding: 1rem;
+    color:rgb(12, 12, 94);  
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 1.5rem;
 }
 /*  */
